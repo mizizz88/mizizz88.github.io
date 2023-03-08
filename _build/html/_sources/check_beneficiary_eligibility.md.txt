@@ -26,11 +26,11 @@ Click on ‘Search’start
 
     When click on **_‘Details’_** icon, the error message will be displayed as below:
 
-    3) **SUSPENDED** : Beneficiary is **BSH recipient for previous year and no longer recipient for current year** , they will **NOT BE ELIGIBLE for PeKa B40 too. If beneficiary have an outstanding claim from the previous year,** the details of the beneficiary will be displayed as shown below with **‘Details’** icon:
+    3 ) **SUSPENDED** : Beneficiary is **BSH recipient for previous year and no longer recipient for current year** , they will **NOT BE ELIGIBLE for PeKa B40 too. If beneficiary have an outstanding claim from the previous year,** the details of the beneficiary will be displayed as shown below with **‘Details’** icon:
 
     4 ) **NOT ELIGIBLE:** Beneficiary is **BSH recipient** in current year but **NOT ELIGIBLE for PeKa B (age <40 years old)** , the details of the beneficiary will be displayed as shown below with **_no ‘Details’ icon_** :
 
-    5) If the beneficiary is NOT BSH recipient and NOT ELIGIBLE for PeKa B40, ‘ No results found’ message will be displayed.
+    5 ) If the beneficiary is NOT BSH recipient and NOT ELIGIBLE for PeKa B40, ‘ No results found’ message will be displayed.
         - The Entitlement Balance is defaulted to RM60 if the beneficiary has not undergone any health screening. After the 1st visit, the balance will drop to RM20 and eventually RM 0 when the beneficiary completed the screening with consultation.
         - If the entitlement balance shows RM 60.00, Provider can proceed to create 1st HS claim by click on **‘+’** icon. To view further details of the beneficiary, click on the **‘** **_Details’_** icon.
         - If entitlement balance shows RM 20.00 and beneficiary was previously screened under your clinic, you can proceed to create 2 nd HS claim. To view further details of the beneficiary, click on the **‘** **_Details’_** icon.
