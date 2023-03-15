@@ -1,4 +1,4 @@
-### Table of Contents
+# Table of Contents
 
 1. [Check Beneficiary Eligibility](#check_beneficiary_eligibility)
 2. [New Screening Process (New Claim)](#new_screening_process)
@@ -11,5 +11,5 @@
 9. [Update Referral Process For Klinik Kesihatan](#update_referral_process)
 10. [Password Management](#password_management)
 11. [Profile Management](#profile_management)
-12. [User Management For Klinik Kesihatan](#user_management)
+12. [User Management For Klinik Kesihatan](#user_management) <br />
     - 12.1 [Create New User](#new_user)
