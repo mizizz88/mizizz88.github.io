@@ -26,8 +26,16 @@ release = '2023'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ["myst_parser",
-              "sphinx_design",]
+extensions = ['myst_parser',
+              'sphinx.ext.autodoc',
+              'sphinx.ext.doctest',
+              'sphinx.ext.intersphinx',
+              'sphinx.ext.todo',
+              'sphinx.ext.coverage',
+              'sphinx.ext.mathjax',
+              'sphinx.ext.ifconfig',
+              'sphinx.ext.viewcode',
+              'sphinx.ext.githubpages']
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
@@ -37,4 +45,21 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_rtd_theme'
+html_theme_path = ["_themes", ]
 html_static_path = ['_static']
+html_theme_options = {
+    'logo_only': True,
+    'navigation_depth': 5,
+}
+# html_logo = "media/"
+html_show_sourcelink = False
+html_favicon = "media/fav.png"
+html_context = {
+    'display_github': True,
+    'github_user': 'mizizz88',
+    'github_repo': 'mizizz88.github.io',
+    'github_version': '',
+}
+
+pygments_style = 'sphinx'
+todo_include_todos = True
